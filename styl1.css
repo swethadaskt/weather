@@ -1,0 +1,93 @@
+body{
+    margin-top: 20px;
+    background-image: url("https://mediaproxy.salon.com/width/1200/https://media.salon.com/2015/03/shutterstock_146991512.jpg");
+    height: 500px;
+    width: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .search{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+  }
+.search input{
+  border: 0;
+  outline: 0;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.search button{
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.search button img{
+  width: 35px;
+
+}
+
+  .weather-icon{
+    width: 170px;
+    margin-top: 15px;
+  }
+  .weather h1{
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+  }
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+  .weather{
+    display: none;
+  }
+  .error{
+   
+    font-size: 40px;
+    margin-top: 10px;
+    display: none;
+  }
+  @media screen and (max-width:767px) {
+    body{
+        background-image: none;
+        
+    }
+    .head{
+        font-size: 20px;
+    }
+    .container{
+        margin-top: 8%;
+        width: 75%;
+        height: 50%;
+    }
+    #img1{
+        margin-left: 0;
+    }
+    button{
+        width: 70%;
+        margin-left: 13%;
+        margin-top: 5%;
+    }
+  
+  }
+  
